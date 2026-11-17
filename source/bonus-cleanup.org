@@ -1,0 +1,7 @@
+{-# cp utf8 #-}
+#file 'SEEN9841.TXT'
+#entrypoint 000
+intF[0] = intG[1900]
+intF[1] = intG[1901]
+intF[1200] = intG[1902]
+jump (701)

@@ -1,0 +1,6 @@
+LIBRARY ta_cn
+EXPORTS
+ reallive_dll_func_load=_reallive_dll_func_load@8 @1000
+ reallive_dll_func_free=_reallive_dll_func_free@0 @1010
+ reallive_dll_func_init=_reallive_dll_func_init@0 @1020
+ reallive_dll_func_call=_reallive_dll_func_call@20 @1030

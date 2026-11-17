@@ -1,0 +1,175 @@
+{
+  "insertions": [
+    {
+      "scene": 9030,
+      "offset": 3,
+      "event": "GBK initialization; Steam achievement initialization"
+    },
+    {
+      "scene": 702,
+      "offset": 40467,
+      "event": "ACH_01: opening completed"
+    },
+    {
+      "scene": 6000,
+      "offset": 10227,
+      "event": "ACH_02: main story completed"
+    },
+    {
+      "scene": 712,
+      "offset": 13274,
+      "event": "ACH_10: internship scene"
+    },
+    {
+      "scene": 714,
+      "offset": 140640,
+      "event": "ACH_11: correct ending of lie game"
+    },
+    {
+      "scene": 716,
+      "offset": 17979,
+      "event": "ACH_13: Tomoyo scene"
+    },
+    {
+      "scene": 716,
+      "offset": 78850,
+      "event": "ACH_12: evening with everyone"
+    },
+    {
+      "scene": 1715,
+      "offset": 9912,
+      "event": "ACH_13: alternate scene"
+    },
+    {
+      "scene": 1716,
+      "offset": 4405,
+      "event": "ACH_15: alternate scene"
+    },
+    {
+      "scene": 1716,
+      "offset": 33780,
+      "event": "ACH_14: alternate scene"
+    },
+    {
+      "scene": 744,
+      "offset": 13495,
+      "event": "ACH_16: bad ending"
+    },
+    {
+      "scene": 1806,
+      "offset": 19943,
+      "event": "ACH_16: bad ending"
+    },
+    {
+      "scene": 1814,
+      "offset": 17768,
+      "event": "ACH_16: bad ending"
+    },
+    {
+      "scene": 2814,
+      "offset": 17761,
+      "event": "ACH_16: bad ending"
+    },
+    {
+      "scene": 3814,
+      "offset": 20759,
+      "event": "ACH_16: bad ending"
+    },
+    {
+      "scene": 4814,
+      "offset": 15675,
+      "event": "ACH_16: bad ending"
+    },
+    {
+      "scene": 7910,
+      "offset": 1817,
+      "event": "ACH_03: D&T introduction"
+    },
+    {
+      "scene": 7910,
+      "offset": 5802,
+      "event": "ACH_20: D&T story"
+    },
+    {
+      "scene": 7930,
+      "offset": 15236,
+      "event": "ACH_21: D&T story"
+    },
+    {
+      "scene": 7930,
+      "offset": 22806,
+      "event": "ACH_22: D&T story"
+    },
+    {
+      "scene": 7930,
+      "offset": 28020,
+      "event": "ACH_23: D&T story"
+    },
+    {
+      "scene": 7930,
+      "offset": 32982,
+      "event": "ACH_24: D&T story"
+    },
+    {
+      "scene": 7930,
+      "offset": 41753,
+      "event": "ACH_25: D&T story"
+    },
+    {
+      "scene": 7940,
+      "offset": 13924,
+      "event": "ACH_26: D&T story"
+    },
+    {
+      "scene": 630,
+      "offset": 33413,
+      "event": "Optional translated Steam math quiz"
+    }
+  ],
+  "official_dt_scenes": [
+    7200,
+    7210,
+    7220,
+    7230,
+    7240,
+    7250,
+    7260,
+    7270,
+    7280,
+    7290,
+    7300,
+    7310,
+    7400,
+    7500,
+    7510,
+    7520,
+    7600,
+    7610,
+    7620,
+    7630,
+    7640,
+    7650,
+    7660,
+    7670,
+    7680,
+    7690,
+    7700,
+    7710,
+    7720,
+    7730,
+    7740,
+    7750,
+    7760,
+    7800,
+    7850,
+    7860,
+    7870,
+    7880,
+    7900,
+    9840
+  ],
+  "quiz": {
+    "entry": 50,
+    "correct_answer_trigger": "0x7712"
+  }
+}

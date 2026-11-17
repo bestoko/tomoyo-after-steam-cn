@@ -1,0 +1,25 @@
+# Release packages and user-supplied game resources stay outside Git.
+/dist/
+/payload/
+/Steam整合汉化补丁/
+/research/
+/source/*-raw/
+/source/*-json/
+/source/*-extracted/
+/source/rldev-go/
+/source/compiled/
+*.zip
+*.7z
+*.exe
+*.dll
+*.obj
+*.lib
+*.exp
+*.sav
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example

@@ -1,0 +1,12 @@
+{-# cp utf8 #-}
+#file 'SEEN9839.TXT'
+#entrypoint 000
+intG[1900] = intF[0]
+intG[1901] = intF[1]
+intG[1902] = intF[1200]
+intL[0] = select ('Play the Steam bonus math quiz', 'Continue the main story')
+goto_unless (!intL[0]) @1
+intF[0] = 0
+jump (9838, 50)
+@1
+jump (701)
