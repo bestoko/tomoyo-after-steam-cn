@@ -15,6 +15,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--package', required=True, type=Path)
     parser.add_argument('--output', required=True, type=Path)
+    parser.add_argument('--archive-root', default='tomoyo-after-steam-cn-r18',
+                        choices=('tomoyo-after-steam-cn-r18', 'tomoyo-after-steam-cn-all-ages'))
     args = parser.parse_args()
     package = args.package.resolve(strict=True)
     payload = (package / 'payload').resolve(strict=True)
@@ -38,7 +40,7 @@ def main():
     with zipfile.ZipFile(partial, 'x', compression=zipfile.ZIP_DEFLATED, compresslevel=1) as archive:
         for path in sorted(package.rglob('*')):
             if path.is_file():
-                archive.write(path, Path('tomoyo-after-steam-cn-r18') / path.relative_to(package))
+                archive.write(path, Path(args.archive_root) / path.relative_to(package))
     with zipfile.ZipFile(partial) as archive:
         bad = archive.testzip()
         if bad:

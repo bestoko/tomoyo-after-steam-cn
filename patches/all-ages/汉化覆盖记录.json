@@ -1,0 +1,328 @@
+{
+  "SEEN0628.TXT": {
+    "dialogue": 290,
+    "choice": 1,
+    "steam_dialogue": 295
+  },
+  "SEEN0629.TXT": {
+    "dialogue": 164,
+    "steam_dialogue": 166
+  },
+  "SEEN0630.TXT": {
+    "dialogue": 282,
+    "choice": 3,
+    "steam_dialogue": 284
+  },
+  "SEEN0701.TXT": {
+    "dialogue": 257,
+    "choice": 3,
+    "steam_dialogue": 258
+  },
+  "SEEN0702.TXT": {
+    "dialogue": 205,
+    "steam_dialogue": 206
+  },
+  "SEEN0707.TXT": {
+    "dialogue": 654,
+    "choice": 1,
+    "steam_dialogue": 657
+  },
+  "SEEN0708.TXT": {
+    "dialogue": 348,
+    "steam_dialogue": 349
+  },
+  "SEEN0709.TXT": {
+    "dialogue": 413,
+    "choice": 2,
+    "steam_dialogue": 417
+  },
+  "SEEN0710.TXT": {
+    "dialogue": 266,
+    "choice": 1,
+    "steam_dialogue": 267
+  },
+  "SEEN0711.TXT": {
+    "dialogue": 569,
+    "choice": 1,
+    "steam_dialogue": 573
+  },
+  "SEEN0712.TXT": {
+    "dialogue": 145,
+    "steam_dialogue": 146
+  },
+  "SEEN0713.TXT": {
+    "dialogue": 533,
+    "steam_dialogue": 540
+  },
+  "SEEN0714.TXT": {
+    "dialogue": 939,
+    "choice": 7,
+    "steam_dialogue": 947
+  },
+  "SEEN0715.TXT": {
+    "dialogue": 417,
+    "choice": 4,
+    "steam_dialogue": 420
+  },
+  "SEEN0716.TXT": {
+    "dialogue": 571,
+    "choice": 16,
+    "steam_dialogue": 583
+  },
+  "SEEN0717.TXT": {
+    "dialogue": 417,
+    "steam_dialogue": 424
+  },
+  "SEEN0720.TXT": {
+    "dialogue": 307,
+    "choice": 3,
+    "steam_dialogue": 308
+  },
+  "SEEN0721.TXT": {
+    "dialogue": 123,
+    "choice": 2,
+    "steam_dialogue": 124
+  },
+  "SEEN0722.TXT": {
+    "dialogue": 86,
+    "steam_dialogue": 87
+  },
+  "SEEN0723.TXT": {
+    "dialogue": 98,
+    "choice": 2,
+    "steam_dialogue": 99
+  },
+  "SEEN0724.TXT": {
+    "dialogue": 4,
+    "steam_dialogue": 5
+  },
+  "SEEN0725.TXT": {
+    "dialogue": 32,
+    "steam_dialogue": 33
+  },
+  "SEEN0726.TXT": {
+    "dialogue": 261,
+    "steam_dialogue": 262
+  },
+  "SEEN0727.TXT": {
+    "dialogue": 34,
+    "steam_dialogue": 35
+  },
+  "SEEN0728.TXT": {
+    "dialogue": 45,
+    "steam_dialogue": 46
+  },
+  "SEEN0729.TXT": {
+    "dialogue": 162,
+    "steam_dialogue": 163
+  },
+  "SEEN0744.TXT": {
+    "dialogue": 125,
+    "steam_dialogue": 127
+  },
+  "SEEN0801.TXT": {
+    "dialogue": 359,
+    "steam_dialogue": 374
+  },
+  "SEEN0803.TXT": {
+    "dialogue": 79,
+    "steam_dialogue": 82
+  },
+  "SEEN0804.TXT": {
+    "dialogue": 41,
+    "steam_dialogue": 42
+  },
+  "SEEN0806.TXT": {
+    "dialogue": 160,
+    "steam_dialogue": 161
+  },
+  "SEEN0807.TXT": {
+    "dialogue": 12,
+    "steam_dialogue": 13
+  },
+  "SEEN0808.TXT": {
+    "dialogue": 22,
+    "steam_dialogue": 23
+  },
+  "SEEN0809.TXT": {
+    "dialogue": 41,
+    "steam_dialogue": 42
+  },
+  "SEEN0810.TXT": {
+    "dialogue": 284,
+    "choice": 1,
+    "steam_dialogue": 285
+  },
+  "SEEN0811.TXT": {
+    "dialogue": 576,
+    "choice": 1,
+    "steam_dialogue": 580
+  },
+  "SEEN0812.TXT": {
+    "dialogue": 179,
+    "steam_dialogue": 180
+  },
+  "SEEN0813.TXT": {
+    "dialogue": 365,
+    "choice": 1,
+    "steam_dialogue": 366
+  },
+  "SEEN0814.TXT": {
+    "dialogue": 180,
+    "choice": 1,
+    "steam_dialogue": 181
+  },
+  "SEEN0815.TXT": {
+    "dialogue": 93,
+    "steam_dialogue": 94
+  },
+  "SEEN0816.TXT": {
+    "dialogue": 79,
+    "steam_dialogue": 80
+  },
+  "SEEN0817.TXT": {
+    "dialogue": 331,
+    "steam_dialogue": 336
+  },
+  "SEEN0818.TXT": {
+    "dialogue": 43,
+    "steam_dialogue": 44
+  },
+  "SEEN0819.TXT": {
+    "dialogue": 11,
+    "steam_dialogue": 12
+  },
+  "SEEN0820.TXT": {
+    "dialogue": 102,
+    "steam_dialogue": 103
+  },
+  "SEEN0821.TXT": {
+    "dialogue": 80,
+    "steam_dialogue": 81
+  },
+  "SEEN0822.TXT": {
+    "dialogue": 105,
+    "steam_dialogue": 106
+  },
+  "SEEN0823.TXT": {
+    "dialogue": 263,
+    "steam_dialogue": 268
+  },
+  "SEEN1710.TXT": {
+    "dialogue": 113,
+    "steam_dialogue": 114
+  },
+  "SEEN1714.TXT": {
+    "dialogue": 175,
+    "steam_dialogue": 177
+  },
+  "SEEN1715.TXT": {
+    "dialogue": 137,
+    "steam_dialogue": 146
+  },
+  "SEEN1716.TXT": {
+    "dialogue": 113,
+    "steam_dialogue": 114
+  },
+  "SEEN1806.TXT": {
+    "dialogue": 102,
+    "steam_dialogue": 103
+  },
+  "SEEN1811.TXT": {
+    "dialogue": 385,
+    "steam_dialogue": 387
+  },
+  "SEEN1813.TXT": {
+    "dialogue": 101,
+    "steam_dialogue": 102
+  },
+  "SEEN1814.TXT": {
+    "dialogue": 95,
+    "steam_dialogue": 96
+  },
+  "SEEN2811.TXT": {
+    "dialogue": 371,
+    "steam_dialogue": 374
+  },
+  "SEEN2813.TXT": {
+    "dialogue": 77,
+    "steam_dialogue": 78
+  },
+  "SEEN2814.TXT": {
+    "dialogue": 105,
+    "steam_dialogue": 106
+  },
+  "SEEN3814.TXT": {
+    "dialogue": 111,
+    "steam_dialogue": 112
+  },
+  "SEEN4814.TXT": {
+    "dialogue": 86,
+    "steam_dialogue": 87
+  },
+  "SEEN5000.TXT": {
+    "dialogue": 894,
+    "steam_dialogue": 898
+  },
+  "SEEN5001.TXT": {
+    "dialogue": 591,
+    "steam_dialogue": 592
+  },
+  "SEEN5002.TXT": {
+    "dialogue": 122,
+    "steam_dialogue": 123
+  },
+  "SEEN5003.TXT": {
+    "dialogue": 284,
+    "steam_dialogue": 285
+  },
+  "SEEN5004.TXT": {
+    "dialogue": 206,
+    "steam_dialogue": 207
+  },
+  "SEEN5005.TXT": {
+    "dialogue": 115,
+    "steam_dialogue": 116
+  },
+  "SEEN5006.TXT": {
+    "dialogue": 1065,
+    "steam_dialogue": 1077
+  },
+  "SEEN5007.TXT": {
+    "dialogue": 394,
+    "steam_dialogue": 396
+  },
+  "SEEN5010.TXT": {
+    "dialogue": 15,
+    "steam_dialogue": 16
+  },
+  "SEEN7160.TXT": {
+    "dialogue": 1,
+    "steam_dialogue": 2
+  },
+  "SEEN7910.TXT": {
+    "dialogue": 84,
+    "steam_dialogue": 85
+  },
+  "SEEN7920.TXT": {
+    "dialogue": 63,
+    "steam_dialogue": 64
+  },
+  "SEEN7930.TXT": {
+    "dialogue": 458,
+    "steam_dialogue": 459
+  },
+  "SEEN7940.TXT": {
+    "dialogue": 117,
+    "steam_dialogue": 118
+  },
+  "SEEN7950.TXT": {
+    "dialogue": 162,
+    "steam_dialogue": 163
+  },
+  "SEEN9030.TXT": {
+    "init": 1,
+    "diagnostic": 1,
+    "steam_dialogue": 1
+  }
+}

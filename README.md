@@ -4,10 +4,10 @@
 
 源码和维护资料保存在 Git；可安装成品放在 [Releases](https://github.com/bestoko/tomoyo-after-steam-cn/releases)。
 
-| 版本 | 当前状态 |
-| --- | --- |
-| R18 汉化补丁 | 0.1 实验版，已完成本机安装及部分剧情验证 |
-| 全年龄汉化补丁 | 待补充成品，暂不提供下载 |
+| 版本 | 下载 | 内容 |
+| --- | --- | --- |
+| 全年龄汉化补丁 | [v0.1.0-all-ages](https://github.com/bestoko/tomoyo-after-steam-cn/releases/tag/v0.1.0-all-ages) | 沿用 Steam 剧情、分支和成就条件，覆盖 17,694 条对白与 50 组选项。菜单、部分文本和片头字幕保留英文。 |
+| R18 汉化补丁 | [v0.1.0](https://github.com/bestoko/tomoyo-after-steam-cn/releases/tag/v0.1.0) | 沿用旧 R18 汉化剧情，实测游玩时间记录和两项成就。 |
 
 ## 下载与使用
 
@@ -19,7 +19,7 @@
 powershell.exe -NoProfile -File .\Manage-Patch.ps1 -Action Install -GamePath "你的游戏目录"
 ```
 
-包内同时提供校验和卸载恢复工具。请保留游戏目录内的 `TASteamCN_Backups`。
+包内同时提供校验和卸载恢复工具。切换汉化版本前，先用已安装版本的卸载工具恢复原版。请保留游戏目录内的 `TASteamCN_Backups`。
 
 ## Steam 兼容与验证范围
 
@@ -29,14 +29,14 @@ R18 版实测 Steam 正常启动、游玩时间记录、汉字显示、存读档
 
 **存档注意：** 两版存档不保证互通。Steam 云同步共用 `SAVEDATA`，会重新下载旧存档，本地备份不能保证云端隔离；请从 Start 新开游戏，避免载入英文版旧档。
 
-详见 [使用说明](docs/r18-usage.md) 和 [验证记录](docs/r18-validation.md)。
+全年龄版实测 Steam 启动、开场中文显示和官方成就接口初始化。全篇、逐项成就及掉卡尚未实测。详见 [全年龄版说明与验证](docs/all-ages.md)、[R18 使用说明](docs/r18-usage.md) 和 [R18 验证记录](docs/r18-validation.md)。
 
 ## 仓库结构与维护
 
 - `source/`：本次新增的原生 DLL 源码、脚本生成与打包辅助脚本。
 - `installer/`：安装、校验和恢复脚本，发布时与 `payload/`、`manifest.json` 放在同一目录。
 - `patches/r18/`：R18 成品文件清单、成就事件接入记录、静态检查结果。
-- `patches/all-ages/`：全年龄版本状态。
+- `patches/all-ages/`：全年龄成品文件清单、汉化覆盖和静态检查结果。
 - `docs/`：使用、验证、原汉化人员署名和重建说明。
 - `tools/`：Release 打包工具。
 

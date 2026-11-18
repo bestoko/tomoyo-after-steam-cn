@@ -2,11 +2,11 @@ from pathlib import Path
 import struct,json,re
 ROOT=Path(__file__).resolve().parent
 def u32(b,p):return struct.unpack_from('<I',b,p)[0]
-def compressed(raw):
+def compressed(raw, root=ROOT):
     start=u32(raw,0x20);code=raw[start:];payload=bytearray()
     for i in range(0,len(code),8):payload.append(255);payload.extend(code[i:i+8])
     payload=bytearray(struct.pack('<II',len(payload)+8,len(code)))+payload
-    go=(ROOT/'rldev-go/common/pkg/compression/compression.go').read_text(encoding='utf8')
+    go=(root/'rldev-go/common/pkg/compression/compression.go').read_text(encoding='utf8')
     part=go.split('var xorMask = [256]byte{',1)[1].split('}',1)[0]
     mask=bytes(int(s,16) for s in re.findall(r'0x([0-9a-fA-F]{2})',part))
     payload=bytes(v^mask[i%256] for i,v in enumerate(payload))
